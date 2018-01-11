@@ -24,6 +24,7 @@
 		835318581D52293F005738CD /* RNBackgroundFetch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 835318571D52293F005738CD /* RNBackgroundFetch.h */; };
 		8353185A1D52293F005738CD /* RNBackgroundFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 835318591D52293F005738CD /* RNBackgroundFetch.m */; };
 		835673F31D93313300BEE2FC /* TSBackgroundFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835673F21D93313300BEE2FC /* TSBackgroundFetch.framework */; };
+		DABD01372008074600C51EF3 /* TSBackgroundFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD01362008074600C51EF3 /* TSBackgroundFetch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		835318591D52293F005738CD /* RNBackgroundFetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBackgroundFetch.m; sourceTree = "<group>"; };
 		835318601D522994005738CD /* RNBackgroundFetch+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RNBackgroundFetch+AppDelegate.m"; sourceTree = "<group>"; };
 		835673F21D93313300BEE2FC /* TSBackgroundFetch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TSBackgroundFetch.framework; path = RNBackgroundFetch/TSBackgroundFetch.framework; sourceTree = "<group>"; };
+		DABD01362008074600C51EF3 /* TSBackgroundFetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSBackgroundFetch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				835318571D52293F005738CD /* RNBackgroundFetch.h */,
 				835318591D52293F005738CD /* RNBackgroundFetch.m */,
 				835318601D522994005738CD /* RNBackgroundFetch+AppDelegate.m */,
+				DABD01362008074600C51EF3 /* TSBackgroundFetch.m */,
 			);
 			path = RNBackgroundFetch;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8353185A1D52293F005738CD /* RNBackgroundFetch.m in Sources */,
+				DABD01372008074600C51EF3 /* TSBackgroundFetch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
